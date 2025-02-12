@@ -12,7 +12,7 @@ console.log(`Média das notas: ${media}`);
 let altura = 1.77;
 let peso  = 78;
 
-let imc = peso / (altura * altura);
+let imc = peso / (altura ** 2);
 
 console.log(`Calculo do IMC: ${imc} kg/m2`);
 
