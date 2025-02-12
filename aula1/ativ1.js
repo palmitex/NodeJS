@@ -14,7 +14,7 @@ let peso  = 78;
 
 let imc = peso / (altura ** 2);
 
-console.log(`Calculo do IMC: ${imc} kg/m2`);
+console.log(`Calculo do IMC: ${imc.toFixed(2)}kg/m2`);
 
 
 
