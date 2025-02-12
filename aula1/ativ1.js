@@ -28,9 +28,11 @@ console.log(`Celsius para Fahrenheit: ${fahrenheit} °F`);
 
 //calcular e exibir preço com desconto
 let preco = 200;
-let desconto = 0.1;
+let desconto = 10;
 
-let precoComDesconto = preco * (1 - desconto);
+let precoComDesconto = (preco * desconto) / 100;
 
-console.log(`Preço com desconto: ${precoComDesconto} R$`);
+let precoFinal = preco - precoComDesconto;
+
+console.log(`Preço com desconto: ${precoFinal} R$`);
 
